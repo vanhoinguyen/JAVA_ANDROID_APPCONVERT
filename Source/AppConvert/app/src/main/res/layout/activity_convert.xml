@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConvertActivity">
+
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spUnit"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/lblResult"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"
+         />
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="335dp"
+        android:layout_height="335dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center_horizontal"
+        android:text="Kết quả "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

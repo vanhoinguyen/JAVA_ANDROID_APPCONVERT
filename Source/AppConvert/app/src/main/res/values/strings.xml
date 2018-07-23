@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppConvert</string>
+    <string name="distance_convert">Distance Convert</string>
+    <string-array name="unitDistance">
+        <item> Meter</item>
+        <item> Mile</item>
+        <item> Cm</item>
+        <item> Inch</item>
+        <item> Yd</item>
+    </string-array>
+
+    <string-array name="unitWeight">
+        <item> g </item>
+        <item> Kg</item>
+        <item> Yến</item>
+        <item> Tạ</item>
+        <item> Tấn</item>
+    </string-array>
+
+</resources>
